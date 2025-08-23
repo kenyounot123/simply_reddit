@@ -4,5 +4,7 @@ require_relative "simply_reddit/version"
 
 module SimplyReddit
   class Error < StandardError; end
-  # Your code goes here...
+  def self.hi
+    puts "hello world"
+  end
 end
