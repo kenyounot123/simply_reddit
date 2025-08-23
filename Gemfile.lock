@@ -22,6 +22,7 @@ GEM
       reline (>= 0.4.2)
     json (2.13.2)
     logger (1.7.0)
+    minitest (5.25.5)
     net-http (0.6.0)
       uri
     pp (0.6.2)
@@ -45,6 +46,7 @@ PLATFORMS
 
 DEPENDENCIES
   irb
+  minitest
   rake (~> 13.0)
   simply_reddit!
 
