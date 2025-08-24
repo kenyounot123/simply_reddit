@@ -1,13 +1,14 @@
 PATH
   remote: .
   specs:
-    simply_reddit (0.1.0)
+    simply_reddit (0.1.1)
       faraday (~> 2.13.4)
 
 GEM
   remote: https://rubygems.org/
   specs:
     date (3.4.1)
+    dotenv (3.1.8)
     erb (5.0.2)
     faraday (2.13.4)
       faraday-net_http (>= 2.0, < 3.5)
@@ -45,6 +46,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dotenv
   irb
   minitest
   rake (~> 13.0)
